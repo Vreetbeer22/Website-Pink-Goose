@@ -1,12 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
+<nav>
+    <div class="header">
+        <div class="header_content">
+            <div class="pink_goose">
+                <div class="pink">
+                    <p>Pink</p>
+                </div> <!--sluit pink-->
+                <div class="goose">
+                    <p>Goose</p>
+                </div> <!--sluit goose-->
+            </div> <!--sluit pink_goose-->
+            <div class="home_balk">
+                <a href="index.html">
+                    <h2>home</h2>
+                </a>
+                <a href="learn.html">
+                    <h2>learn</h2>
+                </a>
+                <a href="about.html">
+                    <h2>about</h2>
+                </a>
+                <a href="contact.html">
+                    <h2>contact</h2>
+                </a>
+            </div> <!--sluit home_balk-->
+            <div class="login">
+                <p>login</p>
+            </div> <!--sluit login-->
+        </div> <!--sluit header_content-->
+    </div> <!--sluit header-->
+</nav>
+
 <body>
-    
+    <div class="main">
+        <div class="heroes_kop">
+            <h2> Our heroes </h2>
+        </div> <!--sluit heroes_kop-->
+        <div class="heroes_doosjes">
+            <div class="heroes_roze_doosjes">
+                <img src="images/heroes_john.png" class="heroes_pictures" alt="Jhon Doe">
+                <p class="heroes_tekst_groot"> John Doe </p>
+                <p class="heroes_tekst_klein"> Lead programmer </p>
+                <div class="heroes_contact">
+                    <p> Contact </p>
+                    <img src="images/heroes_pijltje.png" class="heroes_pijltje" alt="pijltje">
+                </div> <!--sluit heroes_contact-->
+            </div> <!--sluit heroes_roze_doosjes-->
+            <div class="heroes_roze_doosjes">
+                <img src="images/heroes_jane.png" class="heroes_pictures" alt="Jane Doe">
+                <p class="heroes_tekst_groot"> Jane Doe </p>
+                <p class="heroes_tekst_klein"> CEO </p>
+                <div class="heroes_contact">
+                    <p> Contact </p>
+                    <img src="images/heroes_pijltje.png" class="heroes_pijltje" alt="pijltje">
+                </div> <!--sluit heroes_contact-->
+            </div> <!--sluit heroes_roze_doosjes-->
+            <div class="heroes_roze_doosjes">
+                <img src="images/heroes_hans.png" class="heroes_pictures" alt="Hans Erikson">
+                <p class="heroes_tekst_groot"> Hans Erikson </p>
+                <p class="heroes_tekst_klein"> UX Dev Ops Reliability engineer </p>
+                <div class="heroes_contact">
+                    <p> Contact </p>
+                    <img src="images/heroes_pijltje.png" class="heroes_pijltje" alt="pijltje">
+                </div> <!--sluit heroes_contact-->
+            </div> <!--sluit heroes_roze_doosjes-->
+        </div> <!--sluit heroes_doosjes-->
+        <div class="ruimte_tussen_about"></div><!--ruimte_tussen_about-->
+        <div class="weekly">
+            <h2 class="weekly_tekst1"> Weekly digest </h2>
+            <p class="weekly_tekst2"> Latest news in DAOs and web3 </p>
+            <div class="weekly_email">
+                <form action="#">
+                    <input class="email" placeholder="Your email">
+                </form>
+                <button class="subscribe" type="submit">Subscribe</button>
+            </div> <!--sluit weekly_email-->
+        </div> <!--sluit weekly-->
+        <div class="press_kop">
+            <h2 class="press"> Press </h2>
+            <img src="images/sterren5.png" class="sterretjes5" alt="sterretjes">
+            <p class="see_all"> See all <img src="images/pijlte_seeall.png" class="pijltje_seeall"> </p>
+        </div> <!--sluit press_kop-->
+        <div class="press_doosjes">
+            <div class="press_box licht_blauw">
+                <img src="images/decrypt.png" class="decrypt" alt="Decrypt">
+                <p class="press_tekst_groot"> Superdao Raises $10.5 Million to Build an 'All-in-One' DAO Platform </p>
+                <p class="press_tekst_klein"> Superdao aims to make it easier for online communities to build and launch
+                    DAOs </p>
+                <div class="ruimte_tussen"></div>
+                <div class="press_read">
+                    <p>Read</p>
+                    <img src="images/pijltje_read.png" class="pijltje_read" alt="pijltje">
+                </div>
+            </div> <!--sluit press_box-->
+            <div class="press_box licht_paars">
+                <img src="images/blockworks.png" class="blockworks" alt="Blockworks">
+                <p class="press_tekst_groot"> The Y Combinator of Web3 Attracts Record Number of DAO Startups </p>
+                <p class="press_tekst_klein"> DAOs and related startups made up an “overwhelming number of applicants”
+                    for a Web3 accelerator’s cohort this year </p>
+                <div class="press_read">
+                    <p>Read</p>
+                    <img src="images/pijltje_read.png" class="pijltje_read" alt="pijltje">
+                </div>
+            </div> <!--sluit press_box-->
+            <div class="press_box donker_geel">
+                <img src="images/techcrunch.png" class="techcrunch" alt="TechCrunch">
+                <p class="press_tekst_groot"> VC-backed DAO startups are racing to define what DAOs actually are </p>
+                <p class="press_tekst_klein"> Not all'decentralized autonomous organizations'are autonomous... or
+                    decentralized </p>
+                <div class="ruimte_tussen"></div>
+                <div class="press_read">
+                    <p>Read</p>
+                    <img src="images/pijltje_read.png" class="pijltje_read" alt="pijltje">
+                </div>
+            </div> <!--sluit press_box-->
+        </div> <!--sluit press_doosjes-->
+        <img src="images/sterren6.png" class="sterretjes6" alt="sterretjes">
+        <div class="podcasts_kop">
+            <h2 class="podcasts"> Podcasts </h2>
+            <p class="see_all"> See all <img src="images/pijlte_seeall.png" class="pijltje_seeall"> </p>
+        </div> <!--sluit podcasts_kop-->
+        <div class="podcasts_doosjes">
+            <div class="podcasts_box">
+                <img src="images/podcasts_portret.png" class="podcast_image" alt="portret">
+                <p class="podcasts_tekst_groot"> Understanding DAOs with Yury Lifshits </p>
+                <p class="podcasts_tekst_klein"> The Pomp Podcast </p>
+                <p class="podcasts_tekst_klein"> by Anthony Pompliano </p>
+                <div class="ruimte_tussen"></div>
+                <div class="podcasts_more">
+                    <p> Listen </p>
+                    <img src="images/podcasts_pijltje.png" class="pijltje_podcasts" alt="pijltje">
+                </div>
+            </div> <!--sluit podcasts_box-->
+            <div class="podcasts_box">
+                <img src="images/podcasts_blauw.png" class="podcast_image" alt="portret">
+                <p class="podcasts_tekst_groot"> Everything You Need to Know About DAOs with Yury Lifshits from Superdao
+                </p>
+                <p class="podcasts_tekst_klein"> The Unstoppable Podcast </p>
+                <p class="podcasts_tekst_klein"> by Josh Gordon </p>
+                <div class="podcasts_more">
+                    <p> Watch </p>
+                    <img src="images/podcasts_pijltje.png" class="pijltje_podcasts" alt="pijltje">
+                </div>
+            </div> <!--sluit podcasts_box-->
+            <div class="podcasts_box">
+                <img src="images/podcasts_rood.png" class="podcast_image" alt="portret">
+                <p class="podcasts_tekst_groot"> Yury Lifshits - Superdao: The “Shopify” for DAOs </p>
+                <p class="podcasts_tekst_klein"> Zima Red </p>
+                <p class="podcasts_tekst_klein"> by Andrew Stainwold </p>
+                <div class="ruimte_tussen"></div>
+                <div class="podcasts_more">
+                    <p> Listen </p>
+                    <img src="images/podcasts_pijltje.png" class="pijltje_podcasts" alt="pijltje">
+                </div>
+            </div> <!--sluit podcasts_box-->
+        </div> <!--sluit podcasts_doosjes-->
+    </div> <!--sluit main-->
 </body>
+<footer>
+    <div class="footer_words">
+        <p class="footer_wit"> About </p>
+        <p class="footer_wit"> Jobs </p>
+        <p class="footer_geel"> Legal </p>
+    </div> <!--sluit footer_words-->
+    <div class="footer_icons">
+        <img src="images/footer_twitter.png" class="footer_icoontje" alt="twitter">
+        <img src="images/footer_vliegtuig.png" class="footer_icoontje" alt="">
+        <img src="images/footer_youtube.png" class="footer_icoontje" alt="youtube">
+        <img src="images/footer_discord.png" class="footer_icoontje" alt="discord">
+    </div> <!--sluit footer_icons-->
+</footer>
+
 </html>

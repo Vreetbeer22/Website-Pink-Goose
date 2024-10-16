@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
+<nav>
+    <div class="header_content">
+        <div class="pink_goose">
+            <div class="pink">
+                <p>Pink</p>
+            </div> <!--sluit pink-->
+            <div class="goose">
+                <p>Goose</p>
+            </div> <!--sluit goose-->
+        </div> <!--sluit pink_goose-->
+        <div class="home_balk">
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+            <a href="learn.html">
+                <h2>Learn</h2>
+            </a>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+            <a href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </div> <!--sluit home_balk-->
+        <div class="login">
+            <p>login</p>
+        </div> <!--sluit login-->
+    </div> <!--sluit header content-->
+</nav> <!--sluit de header-->
+
 <body>
-    
-</body>
+    <div class="main">
+        <div class="idea">
+            <h2 class="idea_head">What's your GOOSE idea?</h2>
+            <p class="idea_body">Let's chat and see how we can help</p>
+            <div class="idea_naast">
+                <button class="idea_box_geel">
+                    <img src="images/telegram_knop.png" class="idea_knop" alt="plaatje telegram">
+                    <div class="idea_onder">
+                        <p class="idea_tekst_telegram">Telegram</p>
+                        <p class="idea_tekst_team">@superao_team</p>
+                    </div> <!--sluit idea_onder-->
+                </button> <!--sluit idea_box_geel-->
+                <button class="idea_box_roze">
+                    <img src="images/email_knop.png" class="idea_knop" alt="plaatje email">
+                    <div class="idea_onder">
+                        <p class="idea_tekst_email">Email</p>
+                        <p class="idea_tekst_hello">hello@superdao.co</p>
+                    </div> <!--sluit idea_onder-->
+                </button> <!--sluit idea_box_roze-->
+            </div> <!--sluit idea_naast-->
+        </div> <!--sluit idea-->
+        <div class="ruimte_tussen_contact"></div>
+        <div class="post_box">
+            <div class="send_kop">
+                <h2> Send a post Goose </h2>
+            </div> <!--sluit send_kop-->
+            <div class="invul_center">
+                <form action="#">
+                    <input class="send_email send_border" placeholder="Your email">
+                </form> <!--form voor invul email-->
+                <form action="#">
+                    <input class="send_name send_border" placeholder="Your name">
+                </form> <!--form voor invul naam-->
+                <form action="#">
+                    <textarea class="send_message send_border" placeholder="Your message"> </textarea>
+                </form> <!--form voor invul bericht-->
+                <form action="#">
+                    <select class="send_color send_border" selected>
+                        <option class="color_option" selected> Color of your Goose </option>
+                        <option class="color_option"> Red </option>
+                        <option class="color_option"> White </option>
+                        <option class="color_option"> Blue </option>
+                        <option class="color_option"> Black </option>
+                    </select>
+                </form> <!--form voor invul kleur van je Goose-->
+                <div class="send_send_box">
+                    <button class="send_send">
+                        <p> Send </p>
+                    </button> <!--sluit send_send-->
+                </div> <!--sluit send_send_box-->
+            </div> <!--sluit invul_center-->
+        </div> <!--sluit post_box-->
+    </div> <!--sluit main-->
+</body> <!--sluit de body-->
+
+<footer>
+    <div class="footer_words">
+        <p class="footer_wit"> About </p>
+        <p class="footer_wit"> Jobs </p>
+        <p class="footer_geel"> Legal </p>
+    </div> <!--sluit footer_words-->
+    <div class="footer_icons">
+        <img src="images/footer_twitter.png" class="footer_icoontje" alt="twitter">
+        <img src="images/footer_vliegtuig.png" class="footer_icoontje" alt="">
+        <img src="images/footer_youtube.png" class="footer_icoontje" alt="youtube">
+        <img src="images/footer_discord.png" class="footer_icoontje" alt="discord">
+    </div> <!--sluit footer_icons-->
+</footer> <!--sluit de footer-->
+
 </html>
