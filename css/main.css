@@ -1,808 +1,820 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #10151A;
+body {
+  background-color: #10151a;
 }
-a{
-    color:#FFF;
-    text-decoration: none;
+a {
+  color: #fff;
+  text-decoration: none;
 }
-h1{
-    font-size: 40px;
-    flex-wrap: wrap;
-    font-family: "montserrat", sans-serif;  
+img {
+    background-color: transparent;
 }
-h2{
-    font-size: 30px;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+h1 {
+  font-size: 40px;
+  flex-wrap: wrap;
+  font-family: "montserrat", sans-serif;
 }
-input{
-    color: #3D4C5B;
-    font-weight: bold;
-    font-family: "montserrat", sans-serif;
-    font-size: 12px;
-    padding-left: 20px;
+h2 {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
-button{
-    border: none;
-    cursor: pointer;
+input {
+  color: #3d4c5b;
+  font-weight: bold;
+  font-family: "montserrat", sans-serif;
+  font-size: 12px;
+  padding-left: 20px;
 }
-button:hover{
-    background-color: auto;
-    transition: all 0.3;
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
-footer{
-    background-color: #121E28;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    gap: 200px;
-    justify-content: center;
+button:hover {
+  background-color: auto;
+  transition: all 0.3;
 }
-nav{
-    height: 104px;
-    width: 100%;
+footer {
+  background-color: #121e28;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
 }
-.header_content{
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 104px;
+nav {
+  height: 104px;
+  width: 100%;
 }
-    .pink_goose{
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        gap: 8px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        margin-left: 300px;
-    }
-        .pink{
-            color: #FFF;
-            font-size: 35px;
-        }
-        .goose{
-            color: #FFB4D3;
-            font-size: 35px;
-        }
-    .home_balk{
-        align-self: center;
-        display: flex;
-        flex-direction: row;
-        gap: 25px;
-        color: #fff;
-        align-content: center;
-        text-align: center;
-        margin-right: -300px;
-        margin-left: -350px;
-        font-family: "semibold", sans-serif;
-    }
-    .login{
-        align-self: center;
-        height: 44px;
-        width: 92px;
-        background: #243241;
-        align-content: center;
-        text-align: center;
-        color: #FFF;
-        border-radius: 15px;
-        margin-right: 300px;
-    }
+.header_content {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 104px;
+}
+.pink_goose {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 300px;
+}
+.pink {
+  color: #fff;
+  font-size: 35px;
+}
+.goose {
+  color: #ffb4d3;
+  font-size: 35px;
+}
+.home_balk {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  color: #fff;
+  align-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin-right: -300px;
+  margin-left: -350px;
+  font-family: "semibold", sans-serif;
+}
+.login {
+  align-self: center;
+  height: 44px;
+  width: 92px;
+  background: #243241;
+  align-content: center;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  margin-right: 300px;
+}
 
-.main{
-    width: 59.38%;
-    margin: auto;
-    height: auto;
-    margin-bottom: 120px;
+.main {
+  width: 59.38%;
+  margin: auto;
+  height: auto;
+  margin-bottom: 120px;
 }
-    .start{
-        margin: auto;
-        height: auto;
-        color: #FFF;
-        width: 33.8%;
-        text-align: center;
-        margin-top: 50px;
-    }
-        .start1{
-            font-size: 40px;
-            flex-wrap: wrap;
-            font-family: "montserrat", sans-serif;
-        }
-        .start_tekst{
-            flex-wrap: wrap;
-            font-family: "lato", sans-serif;
-            font-size: 14px;
-            margin-top: 20px;
-        }
-        .start_knop{
-            height: 35px;
-            width: 130px;
-            background-color: #CEAAFF;
-            text-align: center;
-            align-content: center;
-            border-radius: 10px;
-            margin: auto;
-            font-family: "montserrat", sans-serif;
-            margin-top: 20px;
-        } 
-.pijltje1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 75px;
+.start {
+  margin: auto;
+  height: auto;
+  color: #fff;
+  width: 33.8%;
+  text-align: center;
+  margin-top: 50px;
 }
-.ready{
-    width: 100%;
-    height: auto;
+.start1 {
+  font-size: 40px;
+  flex-wrap: wrap;
+  font-family: "montserrat", sans-serif;
 }
-    .ready_kop{        
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 10px;
-        margin-top: 75px;
-        color: #FFF;
-    }
-        .sterretjes1{
-            height: 50px;
-            width: 47px;
-            margin-left: 250px;
-        }
-        .tekst_ready{
-            margin: auto;
-            justify-content: center;
-            margin-left: 30px;
-        }
-    .ready_knoppen{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 10px;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
-        .button1{
-            background-color: #182632;
-            height: auto;
-            width: auto;
-            border-radius: 20px;
-            font-size: 15px;
-            padding: 10px
-        }
-        .investment{
-            color: #FFB4D3;
-        }
-        .startup{
-            color: #FFC24C;
-        }
-        .service{
-            color: #D387F7;
-        }
-        .community{
-            color: #77E6FF;
-        }
-        .impact{
-            color: #23C9DE;
-        }
-        .defi{
-            color: #FF9E9E;
-        }
-        .more{
-            color: #707F8D;
-        }
-    .ready_plaatje{
-        display: block;
-        width: 100%;
-        height: auto;
-        position: relative;
-        margin-top: 60px;
-    }
-    .ready_roze{
-        display: flex;
-        justify-content: space-around;
-        background-color: #FFB4D3;
-        height: auto;
-        width: fit-content;
-        border-radius: 20px;
-        font-size: 13px;
-        padding: 10px;
-        text-align: center;
-        margin: auto;
-        margin-top: -20px;
-        position: relative;
-        border: #000;
-        border-width: 2px;
-        border-style: solid;
-    }
-.designed{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 70px;
+.start_tekst {
+  flex-wrap: wrap;
+  font-family: "mostserrat", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
 }
-    .designed_kop{
-        color: #FFF;
-        margin-bottom: 25px;
-        display: flex;
-        flex-direction: row;
-    }
-    .designed_tekst{
-        margin-left: 100px;
-    }
-    .sterretjes2{
-        height: 30px;
-        width: 30px;
-        margin-left: 70px;
-        position: relative;
-        margin-top: -15px;
-    }
-    .designed_tekst_grijs{
-        color: #37424D;
-    }
-    .designed_tekst_roze{
-        color: #FFB4D3;
-    }
-    .space_down{
-        padding: 5px;
-    }
-.works_with{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 100px;
+.start_knop {
+  height: 35px;
+  width: 130px;
+  background-color: #ceaaff;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+  margin: auto;
+  font-family: "montserrat", sans-serif;
+  margin-top: 20px;
 }
-    .works_kop{
-        color: #fff;
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: row;
-
-    }
-    .works_knoppen{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: auto;
-    }
-    .works_doosje{
-        height: 100px;
-        width: 100px;
-        background-color: #2A3744;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-    .icons{
-        height: 40px;
-        width: 40px;
-        align-self: center;
-        margin-top: 30px;
-    }
-    .icons_tekst{
-        margin-top: 40px;
-        color: #FFF;
-    }
-    .sterretjes3{
-        margin-right: 150px;
-        margin-top: -20px;
-    }
-    .sterretjes4{
-        margin-left: 50px;
-        margin-right: 100px;
-        margin-top: -20px;
-    }
-.helps{
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
+.pijltje1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
 }
-    .helps_kop{
-        text-align: center;
-        color: #FFF;
-    }
-    .helps_fotos{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-        .help_foto{
-           height: 100px;
-           width: 100px; 
-        }
-    .helps_tekst{
-        font-size: 25px;
-        margin: auto;
-        color: #FFF;
-    }
-    .help_ster{
-        height: 20px;
-        width: 20px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-.weekly{
-    width: 100%;
-    height: 250px;
-    background-color: #2A3744;
-    border-radius: 30px;
-    margin-top: 100px;
-    text-align: center;
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: #3D4B5E;
-    border-style: solid;
+.ready {
+  width: 100%;
+  height: auto;
 }
-    .weekly_tekst1{
-        color: #FFF;
-        font-size: 40px;
-        padding: 30px;
-    }
-    .weekly_tekst2{
-        color: #9AAFC3;
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
-    .weekly_email{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        justify-content: center;
-    }
-    .email{
-        background-color: #121E28;
-        height: 40px;
-        width: 405px;
-        border-radius: 10px;
-        border-width: 2px;
-        border-color: #3D4B5E;
-        border-style: solid;
-        align-content: center;
-    }
-    .email:focus {
-        outline: none;
-    }
-    .subscribe{
-        background-color: #CEAAFF;
-        height: 40px;
-        width: 15.35%;
-        border-radius: 10px;
-        color: #10151A;
-        text-align: center;
-        align-content: center;
-        border: none;
-        cursor: pointer;
-    }
-.press_kop{
-    display: flex;
-    flex-direction: row;
-    margin-top: 80px;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.ready_kop {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 75px;
+  color: #fff;
 }
-    .press{
-        color: #E5E5E5;
-        font-size: 35px;
-    }
-    .see_all{
-        color: #8395A7;
-        margin-top: 15px;
-    }
-    .pijltje_seeall{
-        height: 12px;
-        width: 10px;
-    }
-    .sterretjes5{
-        height: 35px;
-        width: 35px;
-        margin-right: 650px;
-        margin-top: -20px;
-    }
-.press_doosjes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 100px;
+.sterretjes1 {
+  height: 50px;
+  width: 47px;
+  margin-left: 250px;
 }
-    .press_box{
-        height: 300px;
-        width: 31%;
-        border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-    }
-    .licht_blauw{
-        background-color: #77E6FF;
-    }
-    .licht_paars{
-        background-color: #E2C1F9;
-    }
-    .donker_geel{
-        background-color: #DBE268;
-    }
-    .press_tekst_groot{
-        margin-top: 10px;
-        margin-left: 15px;
-        margin-right: 15px;
-        font-size: 23px;
-        color: #10151A;
-    }
-    .press_tekst_klein{
-        margin-top: 10px;
-        margin-left: 15px;
-        margin-right: 15px;
-        font-size: 18px;
-        color: #10151A;
-    }
-    .ruimte_tussen{
-        height: 20.8px;
-        width: auto;
-    }
-    .press_read{
-        margin-left: 15px;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: row;
-        gap: 7px;
-        font-size: 15px;
-    }
-    .decrypt{
-        margin-top: 20px;
-        margin-left: 15px;
-        height: 35px;
-        width: 110px;
-    }
-    .blockworks{
-        margin-top: 20px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        height: 20px;
-        width: 110px;
-    }
-    .techcrunch{
-        margin-top: 20px;
-        margin-left: 15px;
-        margin-bottom: 15px;
-        height: 20px;
-        width: 110px;
-    }
-    .pijltje_read{
-        height: 20px;
-        width: 13px;
-    }
-.sterretjes6{
-    height: 35px;
-    width: 35px;
-    margin-left: -50px;
-    margin-bottom: -10px;
+.tekst_ready {
+  margin: auto;
+  justify-content: center;
+  margin-left: 30px;
 }
-.podcasts_kop{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.ready_knoppen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
 }
-    .podcasts{
-        color: #E5E5E5;
-        font-size: 35px;
-    }
-.podcasts_doosjes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.button1 {
+  background-color: #182632;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
 }
-    .podcasts_box{
-        height: 250px;
-        width: 31%;
-        border-radius: 15px;
-        background-color: #121E28;
-        border-width: 2px;
-        border-color: #2A3744;
-        border-style: solid;
-        display: flex;
-        flex-direction: column;
-    }
-    .podcast_image{
-        height: 40px;
-        width: 40px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-bottom: 15px;
-    }
-    .podcasts_tekst_groot{
-        margin-left: 20px;
-        margin-right: 15px;
-        font-size: 19px;
-        color: #FFF;
-        margin-bottom: 20px;
-    }
-    .podcasts_tekst_klein{
-        margin-left: 20px;
-        font-size: 12px;
-        color: #FFF;
-        margin-bottom: 5px;
-    }
-    .ruimte_tussen2{
-        height: 22.4px;
-    }
-    .podcasts_more{
-        margin-left: 15px;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: row;
-        gap: 7px;
-        font-size: 15px;
-        color: #FFF;
-    }
-    .pijltje_podcasts{
-        height: 20px;
-        width: 13px;
-    }
-.sterretjes7{
-    height: 60px;
-    width: 50px;
-    display: block;
-    margin: auto;
-    margin-top: 40px;
+.investment {
+  color: #ffb4d3;
 }
-.idea{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+.startup {
+  color: #ffc24c;
 }
-    .idea_head{
-        color: #FFF;
-        margin: auto;
-    }
-    .idea_body{
-        color: #5A6C7E;
-        margin: auto;
-        margin-top: 20px;
-        font-size: 28px;
-    }
-    .idea_naast{
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-        margin-top: 20px;
-        justify-content: center;
-    }
-    .idea_box_roze{
-        background-color: #E2C1F9;
-        height: 40px;
-        width: 16%;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-    .idea_box_geel{
-        background-color: #FFC803;
-        height: 40px;
-        width: 16%;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-    .idea_knop{
-        height: 28px;
-        width: 28px;
-        margin-left: 6px;
-        margin-top: 6px;
-    }
-    .idea_onder{
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-    }
-    .idea_tekst_telegram{
-        font-size: 15px;
-        margin-top: 4px;
-        color: #4D3705;
-    }
-    .idea_tekst_team{
-        font-size: 10px;
-        color: #4D3705;
-    }
-    .idea_tekst_email{
-        font-size: 15px;
-        margin-top: 4px;
-        color: #40354B;
-    }
-    .idea_tekst_hello{
-        font-size: 10px;
-        color: #40354B;
-    }
-    .footer_words{
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
-        align-self: center;
-        margin-left: 450px;
-    }
-    .footer_wit{
-        color: #FFF;
-    }
-    .footer_geel{
-        color: #FFC803;
-    }
-    .footer_icons{
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
-        position: relative;
-        align-self: center;
-    }
-    .footer_icoontje{
-        height: 50px;
-        width: 50px;
-    }
-.heroes_kop{
-    color: #FFF;
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-}  
-.heroes_doosjes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 80px;
+.service {
+  color: #d387f7;
 }
-    .heroes_roze_doosjes{
-        width: 30%;
-        height: 300px;
-        background-color: #FFB4D3;
-        border-radius: 15px;
-    }
-    .heroes_pictures{
-        height: 136.8px;
-        width: 136.8px;
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .heroes_tekst_groot{
-        color: #10151A;
-        font-size: 19px;
-        margin-left: 25px;
-        margin-bottom: 10px;
-    }
-    .heroes_tekst_klein{
-        color: #10151A;
-        font-size: 12px;
-        margin-left: 25px;
-    }
-    .heroes_contact{
-        color: #10151A;
-        display: flex;
-        flex-direction: row;
-        gap: 7px;
-        font-size: 15px;
-        justify-content: end;
-        margin-top: 25px;
-        margin-right: 20px;
-    }
-    .heroes_pijltje{
-        height: 20px;
-        width: 13px;
-    }
-.ruimte_tussen_about{
-    height: 80px;
-    width: auto;
+.community {
+  color: #77e6ff;
 }
-.ruimte_tussen_contact{
-    height: 100px;
+.impact {
+  color: #23c9de;
 }
-.post_box{
-    height: 850px;
-    width: 82.63%;
-    background-color: #121E28;
-    margin: auto;
-    border-radius: 15px;
-    border-color: #2A3744;
-    border-width: 2px;
-    border-style: solid;
-    margin-bottom: 300px;
+.defi {
+  color: #ff9e9e;
 }
-    .send_kop{
-        text-align: center;
-        color: #FFF;
-        margin-top: 50px;
-        margin-bottom: 30px; 
-    }
-    .invul_center{
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    .send_email{
-        width: 53.72%;
-        height: 50px;
-        background-color: #121E28;
-        margin-bottom: 20px;
-        align-content: center;
-        color: #3D4C5B;
-    }
-    .send_email:focus {
-        outline: none;
-    }
-    .send_name{
-        width: 53.72%;
-        height: 50px;  
-        margin: auto;
-        margin-bottom: 20px;
-        background-color: #121E28;
-        color: #3D4C5B;
-    }
-    .send_name:focus {
-        outline: none;
-    }
-    .send_message{
-        width: 53.72%;
-        height: 250px; 
-        margin: auto;
-        margin-bottom: 20px;
-        background-color: #121E28;
-        color: #3D4C5B;
-        padding: 20px;
-    }
-    textarea{
-        resize: none;
-    }
-    .send_message:focus {
-        outline: none;
-    }
-    .send_color{
-        width: 53.72%;
-        height: 50px; 
-        margin: auto;
-        margin-bottom: 200px;
-        background-color: #121E28;
-        color: #3D4C5B;
-        padding-left: 20px;
-    }
-    .send_color:focus {
-        outline: none;
-    }
-    .send_border{
-        border: #2A3744;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 15px;
-    }
-    .send_send_box{
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: end;
-    }
-    .send_send{
-        height: 50px;
-        width: 18.58%;
-        background-color: #CEAAFF;
-        border-radius: 15px;
-        margin-right: 20px;
-        text-align: center;
-        align-content: center;
-        font-size: 17px;
-    }
-    color_option{
-        color: #3D4C5B; 
-    }
+.more {
+  color: #707f8d;
+}
+.ready_plaatje {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 60px;
+}
+.ready_roze {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffb4d3;
+  height: auto;
+  width: fit-content;
+  border-radius: 20px;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: -20px;
+  position: relative;
+  border: #000;
+  border-width: 2px;
+  border-style: solid;
+}
+.designed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+}
+.designed_kop {
+  color: #fff;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.designed_tekst {
+  margin-left: 100px;
+}
+.sterretjes2 {
+  height: 30px;
+  width: 30px;
+  margin-left: 70px;
+  position: relative;
+  margin-top: -15px;
+}
+.designed_tekst_grijs {
+  color: #37424d;
+}
+.designed_tekst_roze {
+  color: #ffb4d3;
+}
+.space_down {
+  padding: 5px;
+}
+.works_with {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.works_kop {
+  color: #fff;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.works_knoppen {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.works_doosje {
+  height: 100px;
+  width: 100px;
+  background-color: #121E28;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+  margin-top: 30px;
+}
+.icons_tekst {
+  margin-top: 40px;
+  color: #fff;
+}
+.sterretjes3 {
+  margin-right: 150px;
+  margin-top: -20px;
+}
+.sterretjes4 {
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: -20px;
+}
+.helps {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.helps_kop {
+  text-align: center;
+  color: #fff;
+}
+.helps_fotos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.help_foto {
+  height: 100px;
+  width: 100px;
+}
+.helps_tekst {
+  font-size: 25px;
+  margin: auto;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.help_ster {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.weekly {
+  width: 100%;
+  height: 250px;
+  background-color: #121E28;
+  border-radius: 30px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #3d4b5e;
+  border-style: solid;
+}
+.weekly_tekst1 {
+  color: #fff;
+  font-size: 40px;
+  padding: 30px;
+}
+.weekly_tekst2 {
+  color: #9aafc3;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: "montserrat", sans-serif;
+}
+.weekly_email {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.email {
+  background-color: #121e28;
+  height: 40px;
+  width: 405px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #3d4b5e;
+  border-style: solid;
+  align-content: center;
+}
+.email:focus {
+  outline: none;
+}
+.subscribe {
+  background-color: #ceaaff;
+  height: 40px;
+  width: 15.35%;
+  border-radius: 10px;
+  color: #10151a;
+  text-align: center;
+  align-content: center;
+  border: none;
+  cursor: pointer;
+}
+.press_kop {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.press {
+  color: #e5e5e5;
+  font-size: 35px;
+}
+.see_all {
+  color: #8395a7;
+  margin-top: 15px;
+}
+.pijltje_seeall {
+  height: 12px;
+  width: 10px;
+}
+.sterretjes5 {
+  height: 35px;
+  width: 35px;
+  margin-right: 650px;
+  margin-top: -20px;
+}
+.press_doosjes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.press_box {
+  height: 300px;
+  width: 31%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.licht_blauw {
+  background-color: #77e6ff;
+}
+.licht_paars {
+  background-color: #e2c1f9;
+}
+.donker_geel {
+  background-color: #dbe268;
+}
+.press_tekst_groot {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 21px;
+  color: #10151a;
+  font-family: "montserrat", sans-serif;
+}
+.press_tekst_klein {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 17px;
+  color: #10151a;
+  font-family: "montserrat", sans-serif;
+}
+.ruimte_tussen {
+  height: 20.8px;
+  width: auto;
+}
+.press_read {
+  margin-left: 15px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  font-size: 15px;
+  color: #10151A;
+}
+.decrypt {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 35px;
+  width: 110px;
+}
+.blockworks {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  height: 20px;
+  width: 110px;
+}
+.techcrunch {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  height: 20px;
+  width: 110px;
+}
+.pijltje_read {
+  height: 20px;
+  width: 13px;
+}
+.sterretjes6 {
+  height: 35px;
+  width: 35px;
+  margin-left: -50px;
+  margin-bottom: -10px;
+}
+.podcasts_kop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.podcasts {
+  color: #e5e5e5;
+  font-size: 35px;
+}
+.podcasts_doosjes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.podcasts_box {
+  height: 250px;
+  width: 31%;
+  border-radius: 15px;
+  background-color: #121e28;
+  border-width: 2px;
+  border-color: #2a3744;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+}
+.podcast_image {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.podcasts_tekst_groot {
+  margin-left: 20px;
+  margin-right: 15px;
+  font-size: 19px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "montserrat", sans-serif;
+}
+.podcasts_tekst_klein {
+  margin-left: 20px;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 5px;
+  font-family: "montserrat", sans-serif;
+}
+.ruimte_tussen2 {
+  height: 22.4px;
+}
+.podcasts_more {
+  margin-left: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  font-size: 15px;
+  color: #fff;
+}
+.pijltje_podcasts {
+  height: 20px;
+  width: 13px;
+}
+.sterretjes7 {
+  height: 60px;
+  width: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.idea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.idea_head {
+  color: #fff;
+  margin: auto;
+}
+.idea_body {
+  color: #5a6c7e;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 28px;
+}
+.idea_naast {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.idea_box_roze {
+  background-color: #e2c1f9;
+  height: 40px;
+  width: 16%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.idea_box_geel {
+  background-color: #ffc803;
+  height: 40px;
+  width: 16%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.idea_knop {
+  height: 28px;
+  width: 28px;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.idea_onder {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.idea_tekst_telegram {
+  font-size: 15px;
+  margin-top: 4px;
+  color: #4d3705;
+}
+.idea_tekst_team {
+  font-size: 10px;
+  color: #4d3705;
+}
+.idea_tekst_email {
+  font-size: 15px;
+  margin-top: 4px;
+  color: #40354b;
+}
+.idea_tekst_hello {
+  font-size: 10px;
+  color: #40354b;
+}
+.footer_words {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-self: center;
+  margin-left: 450px;
+}
+.footer_wit {
+  color: #fff;
+}
+.footer_geel {
+  color: #ffc803;
+}
+.footer_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  position: relative;
+  align-self: center;
+}
+.footer_icoontje {
+  height: 50px;
+  width: 50px;
+}
+.heroes_kop {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.heroes_doosjes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.heroes_roze_doosjes {
+  width: 30%;
+  height: 300px;
+  background-color: #ffb4d3;
+  border-radius: 15px;
+}
+.heroes_pictures {
+  height: 136.8px;
+  width: 136.8px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.heroes_tekst_groot {
+  color: #10151a;
+  font-size: 19px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.heroes_tekst_klein {
+  color: #10151a;
+  font-size: 12px;
+  margin-left: 25px;
+}
+.heroes_contact {
+  color: #10151a;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  font-size: 15px;
+  justify-content: end;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+.heroes_pijltje {
+  height: 20px;
+  width: 13px;
+}
+.ruimte_tussen_about {
+  height: 80px;
+  width: auto;
+}
+.ruimte_tussen_contact {
+  height: 100px;
+}
+.post_box {
+  height: 850px;
+  width: 82.63%;
+  background-color: #121e28;
+  margin: auto;
+  border-radius: 15px;
+  border-color: #2a3744;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 300px;
+}
+.send_kop {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.invul_center {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.send_email {
+  width: 53.72%;
+  height: 50px;
+  background-color: #121e28;
+  margin-bottom: 20px;
+  align-content: center;
+  color: #3d4c5b;
+}
+.send_email:focus {
+  outline: none;
+}
+.send_name {
+  width: 53.72%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #121e28;
+  color: #3d4c5b;
+}
+.send_name:focus {
+  outline: none;
+}
+.send_message {
+  width: 53.72%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #121e28;
+  color: #3d4c5b;
+  padding: 20px;
+}
+textarea {
+  resize: none;
+}
+.send_message:focus {
+  outline: none;
+}
+.send_color {
+  width: 53.72%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 200px;
+  background-color: #121e28;
+  color: #3d4c5b;
+  padding-left: 20px;
+}
+.send_color:focus {
+  outline: none;
+}
+.send_border {
+  border: #2a3744;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+.send_send_box {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.send_send {
+  height: 50px;
+  width: 18.58%;
+  background-color: #ceaaff;
+  border-radius: 15px;
+  margin-right: 20px;
+  text-align: center;
+  align-content: center;
+  font-size: 17px;
+}
+color_option {
+  color: #3d4c5b;
+}
